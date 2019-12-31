@@ -78,7 +78,6 @@ UI.prototype.clearFields = function(){
 
 
 // Event Listener for Add Book
-
 document.querySelector('#book-form').addEventListener('submit', function(e){
     // Form Values
     const title = document.querySelector('#title').value, 
@@ -116,7 +115,6 @@ document.querySelector('#book-form').addEventListener('submit', function(e){
 })
 
 // Event Listener for Deletion of Book
-
 document.querySelector('#book-list').addEventListener('click', function(e){
 
     // Instantiate UI
